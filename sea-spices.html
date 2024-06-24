@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea-Spices</title>
+</head>
+
+<body>
+
+    <div id="overlay" onclick="hideTitle()">
+        <h1 id="pagina" class="entrada">Sea-Spices</h1>
+    </div>
+    <div id="contenido">
+    <header>
+        <h1 class="titulo">Sea-Spices</h1>
+        <div class="separador"></div>
+        <div class="audio">
+                <audio id="audio" source src="perfect-beauty-191271.mp3"></audio>
+                <button class="play" onclick="togglePlayPause()"><img class="on" id="play" src="imagenes/apagado.png" onclick="cambiarImagen()"></button>
+            </div>
+        </div>
+        </header>
+    <div class="video1">
+        <div class="cajaprin">
+            <div class="somos">
+                <img class="im" src="./imagenes/personas.jpg" alt="idk">
+                <div class="info">
+                <h2>¿Quiénes somos?</h2>
+                <p>Como el grupo SEA-SPICES, nos dedicamos a compartir conocimientos existentes sobre el océano, ya sea su fauna y flora. Nuestro objetivo es informar y concienciar sobre la importancia de cuidar y proteger nuestros océanos. Cada tema seleccionado viene acompañado de especificaciones relevantes para garantizar una comprensión completa y precisa. <a href="https://es.wikipedia.org/wiki/Vida_marina">Leer más...</a></p>
+            
+        </div>
+    </div>
+</div>
+<h2><li class="videinf">Videos informativos</li>
+<video controls="controls" id="vid" class="video" src="primervideo.mp4">
+</h2>
+</div>
+<div class="video1">
+<div class="cajap2">
+                        <h2 class="subt"> Información de la fauna y flora acuatica </h2>
+                        <div class="alinear">
+                            <div class="flora">
+                                <a href="Flora Acuatica.html">
+                                    <img class="foto1" src="./imagenes/flora.jpg" alt="idk2">
+                                </a>
+                                    <h3>Flora</h3>
+                            </div>
+                                <div class="fauna">
+                                    <a href="Fauna acuatica COPIA.html">
+                                        <img class="foto2" src="./imagenes/fauna.jpg">
+                                    </a>    
+                                        <h3>Fauna</h3>
+                                </div>
+                                    <div class="pasadoflo">
+                                        <a href="pasado de la flora.html">
+                                            <img class="foto3" src="./imagenes/floraantigua.jpg">
+                                        </a>
+                                            <h3>Pasado de la flora</h3>
+                                    </div>
+                                        <div class="pasadofa">
+                                            <a href="pasado fauna.html">
+                                                <img class="foto4" src="./imagenes/faunaantigua.jpg" alt="idk5">
+                                            </a>
+                                                <h3>Pasado de la fauna</h3>
+                                        </div>
+                        </div>
+                
+                    
+        </div>
+        <video controls="controls" id="vid2" class="video" src="segundovideo.mp4">
+    </div>
+</div>
+</body>
+<style>
+    body{
+    font-family: "Arial", sans-serif;
+ margin: 0;
+      padding: 0;
+      padding-bottom:0px;
+}   
+header {
+    display:flex;
+    background-color: #bb1833;
+    border-bottom:1%  solid#6e0e1e;
+    color: #ffffff;
+    padding: 1% 0;
+    text-align: left;
+    padding-left: 5%;
+  }
+  
+.cajaprin{
+    margin-top: 10px;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 10pt;
+
+    background:#f4f4f4;
+}
+.im{
+    margin-right: 20pt;
+    height: 130pt;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.somos{
+    margin-top: 60px;
+    display:flex;
+    margin-left: 63pt;
+    margin-bottom: 20px;
+}
+.info{
+    padding-right: 100px
+}
+
+.cajap2{
+    border-top: 13px solid #7fffd4;
+    padding: 0;
+    padding-bottom: 4%;
+    padding-right: 2%;
+    background:#017371;
+    color: #7fffd4;
+
+}
+.linea1 {
+    border-top: 3px solid #7fffd4;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+.videinf{
+    margin-left: 20px;
+}
+.subt{
+    margin-top: 20px;
+    margin-left:30px;
+    padding-top: 1%;
+}
+
+.alinear{
+    margin-left:30px;
+    display:flex;
+    justify-content: center;
+}
+
+.video1{
+    display: flex;
+    background-color: #7fffd4;
+
+}
+.video{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.foto1{
+    border: 6px solid white;
+    width: 100pt;
+    height: 100pt;
+    border-radius: 20px 20px 20px 20px;
+    transition: 1.9 ease-in-out;
+}
+.foto1:hover{
+    border-color: #7fffd4;
+    width: 110pt;
+    height: 110pt;
+}
+.foto2{
+    border: 6px solid white;
+    width: 100pt;   
+    height: 100pt;
+    border-radius: 20px 20px 20px 20px;
+    transition: 1.9 ease-in-out;
+}
+
+.foto2:hover{
+    border-color: #7fffd4;
+    width: 110pt;
+    height: 110pt;
+}
+.foto3{
+    border: 6px solid white;
+    width: 100pt;
+    height: 100pt;
+    border-radius: 20px 20px 20px 20px;
+    transition: 1.9 ease-in-out;
+}
+
+.foto3:hover{
+    border-color: #7fffd4;
+    width: 110pt;
+    height: 110pt;    
+}
+.foto4{
+    border: 6px solid white;
+    width: 100pt;
+    height: 100pt;
+    border-radius: 20px 20px 20px 20px;
+    transition: 1.9 ease-in-out;
+}
+
+.foto4:hover{
+    border-color: #7fffd4;
+    width: 110pt;
+    height: 110pt;
+}
+.fauna{
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+}
+.fauna:hover{
+    color: #7fffd4;
+}
+.pasadofa{
+    color: white;
+    text-align: center;
+}
+
+.pasadofa:hover{
+    color: #7fffd4;
+}
+.flora{
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.flora:hover{
+    color: #7fffd4;
+}
+.pasadoflo{
+    color: white;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.pasadoflo:hover{
+    color: #7fffd4;
+}
+
+.audio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: solid #990921;
+}
+
+.play{
+    visibility: hidden;
+}
+.on{
+    width: 100%;
+    height: 30px;
+    visibility: visible;
+}
+.titulo{
+    margin-right: 23cm ;
+}
+.separador{
+    border-left: 3px solid #990921;
+    padding: 0;
+    margin-right: 20px;
+   
+}
+.entrada {
+    -webkit-animation: entrada 2.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: entrada 2.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes entrada {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes entrada {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #bb1833;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagina{
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    cursor: pointer;
+    text-shadow: 6px 6px 3px black;
+}
+#contenido{
+    display: none;
+}
+#vid{
+    opacity: 0;
+}
+#vid2{
+    opacity: 0;
+}
+</style>
+<script>
+
+    var audio = document.getElementById("audio");
+
+    function togglePlayPause() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause(); 
+      }
+    }
+
+    function cambiarImagen() {
+  var play = document.getElementById("play");
+  if (play.src.endsWith("imagenes/apagado.png")) {
+    play.src = "imagenes/prendido.png";
+  } else {
+    play.src = "imagenes/apagado.png";
+  }
+}
+function hideTitle(){
+    document.getElementById('overlay').style.display='none';
+    document.getElementById('vid').style.opacity='1';
+    document.getElementById('vid2').style.opacity='1';
+    document.getElementById('contenido').style.display='block';
+}
+  </script>
+</html>

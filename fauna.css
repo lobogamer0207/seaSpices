@@ -1,0 +1,240 @@
+.contenedor-img{
+width: 20%;
+height: auto;
+border: 20px groove gold;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: gold;
+margin-left: 40%;
+margin-top: 4%;
+}
+.contenedor-img img{
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+p.clasificiacion-flora{
+	font-size: 20px;
+	font-weight: bold;
+}
+body{
+	background: linear-gradient(0deg,navy,blue,teal,aqua);
+
+    font-family: "Arial", sans-serif;
+ margin: 0;
+      padding: 0;
+      padding-bottom:0;
+
+}
+header {
+    display:flex;
+    background-color: #bb1833;
+    border-bottom:1%  solid #6e0e1e;
+    color: #ffffff;
+    padding: 1% 0;
+    text-align: left;
+    padding-left: 5%;
+  }
+  .audio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: solid #990921;
+}
+
+.play{
+    
+    visibility: hidden;
+}
+.on{
+    width: 40px;
+    height: 30px;
+    visibility: visible;
+}
+.titulo{
+    margin-right: 23cm ;
+}
+.separador{
+    border-left: 3px solid #990921;
+    padding: 0;
+    margin-right: 2%;
+   
+}
+
+.regresar{
+    margin-left: 1%;
+    padding-bottom: 2%;
+    width: 5%;
+    height: 10%;   
+    position: fixed;
+    left: 1%;
+    bottom: 1%;    
+}
+.tituloflo{
+    text-align: center;
+}
+.introduccion{
+    border-radius: 20px;
+    margin: 15px;
+    padding: 1%;
+    background:#f4f4f4;
+    border-top:4px  solid;
+    border-right:4px  solid;
+    border-left:4px  solid;
+    border-bottom:4px  solid;
+    border-color: #adadb5;
+}
+.clasifica{
+ border-radius: 20px;
+    margin: 15px;
+    padding: 1%;
+    background:#f1c58b;
+    border-top:4px  solid;
+    border-right:4px  solid;
+    border-left:4px  solid;
+    border-bottom:4px  solid;
+    border-color: #d2a972;   
+}
+.clasifica-h1{
+    text-align: center;
+}
+.subparte{
+    border-radius: 20px;
+    margin: 15px;
+    padding: auto;
+    background:#f4f4f4;
+    border-top:4px  solid;
+    border-right:4px  solid;
+    border-left:4px  solid;
+    border-bottom:4px  solid;
+    border-color: #adadb5;
+    text-align: center;
+}
+.plantas_sumergidas, .plantas_flotantes, .plantas_emergentes, .peces, .mamiferos, .aves_acuaticas, .reptiles, .anfibios, .moluscos, .crustaceos, .aponogeton, .nenucretacico, .limnobium, .euryale, .cabompaprehis, .Victoria, .Jacinto-antiguo, .Helecho-prehistorico, .estrellagigante, .loto, .thelicoprion, .pdevonianos, .canguro-mar, .tortuga-laud, .pez-sierra-gigante, .dudongo, .tortuga-gigante, .Megalodon, .Baiji, .pez-dodo{
+    border-radius: 20px;
+    margin: 15px;
+    padding: auto;
+    border-top:4px  solid;
+    border-right:4px  solid;
+    border-left:4px  solid;
+    border-bottom:4px  solid;
+    border-color: black;
+}
+
+.plantas_sumergidas{
+    background:#aeee7a;
+}
+.plantas_sumergidas-h2, .plantas_flotantes-h2{
+    text-align: center;
+}
+
+.plantas_flotantes{    
+    background:#6bcbf5;
+}
+
+.plantas_emergentes{    
+    background:#c96650;
+}
+.plantas_emergentes-h2{
+    text-align: center;
+}
+
+.peces{    
+    background:#6bcbf5;
+}
+.peces-h2{
+    text-align: center;
+}
+.crustaceos{    
+    background:#ff0000;
+}
+.cangrejo-h2{
+    text-align: center;
+}
+.pez-dodo{
+    background:#00ff00;
+}
+.Baiji{
+    background:#ff0000;
+}
+.Megalodon{
+    background:#800080;
+}
+.tortuga-gigante{
+    background:#ffff00;
+}
+.dudongo{
+    background:#008000;
+}
+.pez-sierra-gigante{
+    background:#ff7f50;
+}
+.tortuga-laud{
+    background:#d2691e;
+}
+.canguro-mar{
+    background:#8a2be2;
+}
+.pdevonianos{
+    background:#ffccff;
+}
+.thelicoprion{
+    background:#0099ff;
+}
+/*estilos pasado de flora*/
+.loto{
+    background:#ffff00;
+}
+.estrellagigante{
+    background:#ff0000;
+}
+.Helecho-prehistorico{
+    background:#66ff66;
+}
+.Jacinto-antiguo{
+    background:#0099ff;
+}
+.Victoria{
+    background:#0033ff;
+}
+.cabompaprehis{
+    background:#ff6600;
+}
+.euryale{
+    background:#ff66ff;
+}
+.limnobium{
+    background:#9999ff;
+}
+.nenucretacico{
+    background:#00ffff;
+}
+.aponogeton{
+    background:#00ff00;
+}
+/*fauna*/
+.crustaceos{
+    background:#0033ff;
+}
+.moluscos{
+    background:#00ff00;
+}
+.anfibios{
+    background:#ffcc00;
+}
+.reptiles{
+    background:#ff3300;
+}
+.aves_acuaticas{
+    background:#3399ff;
+}
+.mamiferos{
+    background:#ffff66;
+}
